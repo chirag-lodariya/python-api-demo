@@ -11,4 +11,4 @@ services:
     command: >
       sh -c "python manage.py runserver 0.0.0.0:8000"
 
-docker run -d -v ./app:/app:Z app
+docker run -d -v ./app:/app app
